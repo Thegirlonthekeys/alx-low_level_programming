@@ -42,6 +42,6 @@ while (i < 58)
 }
 putchar(10);
 
-return(0)
+return(0);
 }
 
