@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - print triple combos
+ * main - print double combos
  *
- * Description: print triple digit combos
+ * Description: print double digit combos
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-int i, j, k;
+int i, j;
 
 i = 48;
 j = 48;
