@@ -1,24 +1,47 @@
 #include <stdio.h>
+
 /**
- * main - prints all the possible different combinations of two digits
+ * main - print triple combos
+ *
+ * Description: print triple digit combos
+ *
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
-int a;
-int b;
+int i, j, k;
 
-for (a = 48; a <= 56; a++)
+i = 48;
+j = 48;
+k = 48;
+
+while (i < 58)
 {
-	for (b = 49; b <= 57; b++)
+	j = i + 1;
+	while (j < 58)
 	{
-		if (b > a)
+		k = j + 1;
+		while (k < 58)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(i);
+			putchar(j);
+			putchar(k);
+			if (i < 55 || j < 56 || k < 57)
+			{
+				putchar(44);
+				putchar(32);
+			}
+			k++;
 		}
+
+		j++;
 	}
+
+	i++;
 }
-putchar('\n');
-return (0);
+putchar(10)
+
+return(0)
 }
+
