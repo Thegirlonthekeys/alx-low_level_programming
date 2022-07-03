@@ -40,7 +40,7 @@ while (i < 58)
 
 	i++;
 }
-putchar(10)
+putchar(10);
 
 return(0)
 }
