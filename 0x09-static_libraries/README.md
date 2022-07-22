@@ -8,7 +8,7 @@ Tasks 📃
 
 0. A library is not a luxury but one of the necessities of life
 
-libmy.a: C Static library containing all the functions listed below:
+ #libmy.a: C Static library containing all the functions listed below:
 
 int _putchar(char c);
 int _islower(int c);
