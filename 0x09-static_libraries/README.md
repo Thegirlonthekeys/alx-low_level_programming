@@ -1,4 +1,4 @@
-#C - Static libraries
+# C - Static libraries
 In this project, I learned what static libraries are and practiced creating and using them with ar, ranlib, and nm.
 
 Tests ✔️
@@ -8,7 +8,7 @@ Tasks 📃
 
 0. A library is not a luxury but one of the necessities of life
 
- #libmy.a: C Static library containing all the functions listed below:
+# libmy.a: C Static library containing all the functions listed below:
 
 int _putchar(char c);
 int _islower(int c);
